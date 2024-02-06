@@ -1,5 +1,7 @@
 # Ressources
 
+## Qu'est-ce qu'une ressource ?
+
 Une ressource est le terme utilisé par Omeka S pour définir une collection, un contenu ou un média.
 
 Une collection peut contenir des contenus. Certaines fonctionnalités dans l'administration utilise cette notion (par exemple : les filtres de recherche).
@@ -17,6 +19,7 @@ Un média est toujours associé à un seul contenu. C'est la ressource utilisée
 
 Le formulaire de création/édition d’une ressource se présente sous cette
 forme :
+
 1. Un menu d’onglets qui varie en fonction du type de ressource et des modules installés
 2. La sélection d’un modèle de ressource
 3. La liste des propriétés utilisables triés par vocabulaires

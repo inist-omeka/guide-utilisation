@@ -1,4 +1,6 @@
-# Se connecter
+# Administration
+
+## Se connecter
 
 Cliquez sur l'icône du buste du personnage présent en haut à droite du site public.
 
@@ -8,11 +10,12 @@ Vous arrivez sur un formulaire pour saisir vos identifiants de connexion :
 
 ![Formulaire de connexion](assets/formulaire-connexion.png)
 
-# Comprendre globalement l'interface d'administration
+## Comprendre l'interface d'administration
 
 ![Menu de l'administration](assets/menu-administration.png)
 
 Le menu latéral permet d'accéder à différentes fonctionnalités autour :
+
 * Des sites : gestion des pages, association des ressources, paramétrages du thème, etc.
 * Des ressources : contenus, collections, vocabulaires et modèles de ressources
 * De l'administration du logiciel : utilisateurs, modules, paramétrages d'Omeka S, etc.

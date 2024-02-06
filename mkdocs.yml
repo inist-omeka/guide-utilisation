@@ -1,4 +1,43 @@
-site_name: Guide Omeka-S INIST
+site_name: Guide Omeka S
 
 theme:
   name: material
+  language: fr
+  logo: assets/logo-inist-blanc.png
+  favicon: assets/logo-cnrs-couleur.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Changer pour le mode sombre
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Changer pour le mode clair
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    # - search.highlight
+  markdown_extensions:
+    - def_list
+nav:
+  - Accueil: index.md
+  - Administration: administration.md
+  - Ressources:
+    - Qu'est-ce qu'une ressource ?: ressources.md
+    - modeles-ressource.md
+    - vocabulaires.md
+    - collections.md
+    - contenus.md
+    - medias.md
+  - Modules:
+    - module-mapping.md
+    - module-references.md

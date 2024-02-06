@@ -17,11 +17,7 @@ Dans l’onglet **Valeurs** (3), on retrouve les propriétés décrivant le cont
 
 ![Médias d'un contenu](assets/medias-contenu.png)
 
-Dans l’onglet **Médias** (4), il est possible d’ajouter des médias (images, vidéos, etc.) provenant de différentes sources :
-
-* 5 : En local avec l’explorateur de fichiers
-* 6 : Depuis une url
-* 7 : Depuis une url d’un serveur IIIF
+Dans l’onglet **Médias** (4), il est possible d’ajouter des médias (images, vidéos, etc.) provenant de différentes sources disponibles sur la droite: en local (5), depuis une url (6), depuis une url d’un serveur IIIF (7), etc.
 
 Il est possible d'ajouter un titre lors de l'ajout d'un média et d'ordonnancer les médias avec le symbole en haut à gauche de chaque bloc en faisant un glisser/déposer.
 
