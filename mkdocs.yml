@@ -32,7 +32,7 @@ nav:
   - Accueil: index.md
   - Administration: administration.md
   - Ressources:
-    - Qu'est-ce qu'une ressource ?: ressources.md
+    - ressources.md
     - modeles-ressource.md
     - vocabulaires.md
     - collections.md
