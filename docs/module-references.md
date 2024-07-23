@@ -2,7 +2,10 @@
 
 Le module References permet de créer des pages d'index avec les la liste des valeurs distinctes d'une propriété des ressources associées aux sites.
 
-## Créer une page index
+## Créer une page avec un index
+
+!!! note
+	Si le module **Adm'Inist** est intallé voir : [Adm'Inist - création d'une page d'index](module-administ.md)
 
 ![Création d'une page](assets/creation-page-index-1.png)
 
