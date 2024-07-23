@@ -39,5 +39,9 @@ nav:
     - contenus.md
     - medias.md
   - Modules:
+    - module-administ.md
+    - module-advanced-search.md
     - module-mapping.md
     - module-references.md
+markdown_extensions:
+  - admonition
