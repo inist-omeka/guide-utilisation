@@ -1,6 +1,8 @@
-# Advanced Search 
+# Advanced Search
 
-Et le module complémentaire Advanced Search adapter for Solr
+Et le module complémentaire Advanced Search adapter for Solr.
+
+Ces modules permettent de mettre en place des pages de résultats de recherche pour les ressources.
 
 ## Créer une page de résultats
 
@@ -62,7 +64,7 @@ Dans la partie **Facettes**, il y a deux listes de valeurs, la première contien
 Le libellé entre les **=** sera utilisé pour les affichages.
 
 !!! note
-	Si **Advanced Search adapter for Solr** est utlisé, une correspondance **strings (_ss)** de l'élément sur lequel trier est nécessaire.
+	Si **Advanced Search adapter for Solr** est utlisé, une correspondance **strings (_ss)** de l'élément est nécessaire.
 
 Dans la deuxième liste se trouve les facettes disponibles pour les copier dans la liste au-dessus.
 
@@ -80,3 +82,42 @@ Le **Mode des facettes** permet de choisir comment l'utilisateur utilisera les f
 - Sélectionner deux valeurs de deux ensembles de facettes distinct les appliqueront avec un **ET**.
 
 ![Mode de facettes](assets/facettes-checkbox.png)
+
+---
+
+## Correspondances Solr (Advanced Search adapter for Solr)
+
+Les correspondances indiquent à Solr comment indexer chaque propriétés et/ou les informations des ressources.
+
+### Liste des correspondances
+
+![Configuration du coeur Solr](assets/advanced-search-liste-correspondances-1.png)
+
+![Gestion des correspondances](assets/advanced-search-liste-correspondances-2.png)
+
+Il faut accéder à la configuration de **Solr** dans le menu **Moteurs de recherche** (1), configurer le coeur (2), accéder à la gestion des correspondances des ressources (3).
+
+Il est possible de créer plusieurs correspondances pour une même proprité ou information. Certains types de correspondances sont utilisés pour les tris ou les facettes des pages de résultats.
+
+### Création d'une correspondance
+
+!!! note
+	Si **Adm'Inist** est installé voir : [Adm'Inist - Création des correspondances](module-administ.md#creation-des-correspondances-advanced-search-adapter-for-solr)
+
+![Création d'une correspondance](assets/advanced-search-creation-correspondances-1.png)
+
+![Formulaire de création d'une correspondance](assets/advanced-search-creation-correspondances-2.png)
+
+Il faut accéder à la [liste des correspondances](#liste-des-correspondances), il faut cliquer sur le 1er bouton **Ajouter une correspondance** en haut à droite (4).
+
+Dans le formulaire, il faut sélectionner la propriété ou l'information (2) que Solr doit indexer et indiquer de quelle manière l'indexer (3) :
+
+- ***_ss (strings)** pour les facettes, index, rebonds
+- ***_s (string)** pour les tris
+- ***_txt (text_general)** pour les textes
+
+### Suppression d'une correspondance
+
+![Suppression d'une correspondance](assets/advanced-search-suppression-correspondances.png)
+
+Il faut accéder à la [liste des correspondances](#liste-des-correspondances), la suppression d'une correspondance se fait en cliquant sur la poubelle de celle-ci et en validant la fenêtre qui s'ouvre à droite.
