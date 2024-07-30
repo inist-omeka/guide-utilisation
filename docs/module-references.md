@@ -5,7 +5,7 @@ Le module References permet de créer des pages d'index avec les la liste des va
 ## Créer une page avec un index
 
 !!! note
-	Si le module **Adm'Inist** est intallé voir : [Adm'Inist - création d'une page d'index](module-administ.md)
+	Si le module **Adm'Inist** est intallé voir : [Adm'Inist - création d'une page d'index](module-administ.md#creation-de-page-dindex-references)
 
 ![Création d'une page](assets/creation-page-index-1.png)
 
