@@ -37,7 +37,7 @@ Le champ **Titre** est libre. Pour le champ **Identifiant de l'URL**, il faut in
 
 Il existe plusieurs manières de créer la liste des index avec différents blocs.
 
-### Avec le bloc Références
+### Avec le bloc Références (index)
 
 ![Ajout du bloc Référence](assets/creation-liste-index-3.png)
 
