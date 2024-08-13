@@ -121,3 +121,15 @@ Dans le formulaire, il faut sélectionner la propriété ou l'information (2) qu
 ![Suppression d'une correspondance](assets/advanced-search-suppression-correspondances.png)
 
 Il faut accéder à la [liste des correspondances](#liste-des-correspondances), la suppression d'une correspondance se fait en cliquant sur la poubelle de celle-ci et en validant la fenêtre qui s'ouvre à droite.
+
+## Indexer Solr (Advanced Search adapter for Solr)
+
+Solr a besoin d'indexer les propriétés et/ou les informations configurer dans les correspondances pour permettre la recherche.
+
+![Suppression d'une correspondance](assets/advanced-search-indexation.png)
+
+Dans l'onglet **Moteurs de recherche** (1), le deuxième bouton avec deux flèches (2) permet d'ouvrir la fenêtre à droite pour lancer l'indexation.
+
+La zone saisie (3) permet d'indiquer à Solr si une actualisation des index (en laissant la valeur 1) ou si les index doivent être réinitialisés avant l'indexation en indiquant la valeur 0.
+
+L'indexation se lance en cliquant sur **Confirmer la réindexation** (4). Celle-ci se lance en fond et nécessite un temps pour la création/actualisation des index.
