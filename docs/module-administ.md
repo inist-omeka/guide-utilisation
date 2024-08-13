@@ -20,12 +20,34 @@ En validant avec le bouton **Enregistrer**, les pages sélectionnées seront cr�
 
 !!! note
 	Les pages créées par cette fonctionnalité seront construites avec ces éléments :
-	
+
 	- Un **titre**, en utilisant les libellés indiqués dans le formulaire, par défaut le libellé de la propriété sera utilisé
 	- En **identifiant pour l’URL**, la forme **prefixe-propriete**, trouvable dans la [liste des propriétés d'un vocabulaire](vocabulaires.md#liste-des-proprietes-dun-vocabulaire), en remplaçant **:** par **-**
 	- Un bloc **Titre de la page**
 	- Un bloc **Référence** avec une configuration par défaut (sélection de la propriété, les raccourcis en début et fin de page et les totaux par valeur)
 
-## Correspondances Solr (Advanced Search adapter for Solr)
+## Création des correspondances (Advanced Search adapter for Solr)
 
 Cette fonctionnalité permet uniquement de créer les correspondances pour Solr, cela ne permet pas de modifier ni supprimer une correspondance.
+
+Dans le menu **Correspondances Solr** (1) liste les propriétés triées par vocabulaires.
+
+![Formulaire création des correspondances Solr](assets/administ-creation-correspondances-solr.png)
+
+Pour chaque propriété il est possible de déclarer trois correspondances Solr différentes (2) :
+
+- facette / rebond / index (_ss)
+- tri (_s)
+- texte (_txt)
+
+Les correspondances existantes seront déjà cochées.
+
+En validant avec le bouton **Enregistrer** (3), les pages sélectionnées seront crées.
+
+!!! attention
+	Une nouvelle indexation du coeur Solr sera nécessaire (voir [Indexer Solr](module-advanced-search.md#indexer-solr-advanced-search-adapter-for-solr)).
+
+!!! note
+	Le thème utilisé par l'Inist modifie les pages d'index pour rediriger vers la page de recherche Solr sélectionnée dans les paramètres du site quand une valeur d'un index à plusieurs occurences, et pour permettre la recherche transversale (rebonds) sur une valeur d'une propriété.
+
+	Voir la configuration du thème pour activer la recherche transversale sur une propriété.
