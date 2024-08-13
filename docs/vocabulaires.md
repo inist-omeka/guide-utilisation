@@ -68,7 +68,7 @@ ajouter, soit avec un fichier, soit une url.
 
 Dans le menu **Vocabulaires** (1), la liste des propriétés d’un vocabulaire est accessible en cliquant sur le nombre de propriétés d'un vocabulaires (2).
 
-La liste comporte deux colonnes, le libellé utilisé pour les affichages et la propriété sous la forme “prefixe:propriete” utilisée par certains paramétrages et modules.
+La liste comporte deux colonnes, le libellé utilisé pour les affichages et la propriété sous la forme **prefixe:propriete** utilisée par certains paramétrages et modules.
 
 ## Éditer un vocabulaire
 
