@@ -43,7 +43,7 @@ Dans le premier onglet **Mapper vers les données Omeka S**, pour chaque ligne e
 - une poubelle pour supprimer le mappage
 - les options appliquées
 
-### Mappage des colonnes
+### Mapper vers les données Omeka S
 
 En cliquant sur le plus d'une ligne, une fenêtre à droite s'ouvre. Certaines correspondances sont spécifiques à un import d'un type de ressource.
 
@@ -61,15 +61,15 @@ Dans **Métadonnée commune**, il est possible de sélectionner que la colonne s
 
 Une colonne peut être ajoutée pour chacune de ces métadonnées communes.
 
-### Mappage spécifiques aux contenus
+#### Mappage spécifiques aux contenus
 
-#### Données spécifiques au contenu
+##### Données spécifiques au contenu
 
 ![Mappage de données spécifiques au contenu](assets/import-csv-mappage-donnees-specifiques-contenu.png)
 
 Lors d'un import de contenus, il est possible d'indiquer que les valeurs d'une colonne servent à associer un contenu à une collection en indiquant dans quelle propriété trouver les valeurs de la colonne.
 
-#### Source du média
+##### Source du média
 
 ![Mappage de source du média](assets/import-csv-mappage-source-media.png)
 
@@ -79,7 +79,7 @@ En appliquant une **Source du média** à une colonne d'un import de contenus, c
 
 Il faut créer une colonne par type de média dans le fichier importé.
 
-#### Localisation de la ressource
+##### Localisation de la ressource
 
 !!! note
 	Le module **Mapping** doit être installé.
@@ -88,9 +88,9 @@ Il faut créer une colonne par type de média dans le fichier importé.
 
 Il est possible d'ajouter une colonne dans le fichier pour indiquer des coordonnées géographiques au format **WGS84 décimal** (en remplaçant le séparateur **,** par **/**) en sélectionnant **Latitude/Longitude** qui ajouteront un marqueur sur une carte associée au contenu.
 
-### Mappage spécifiques aux médias
+#### Mappage spécifiques aux médias
 
-#### Données spécifiques au média
+##### Données spécifiques au média
 
 !!! danger "Important"
 	Un média doit toujours être associé à un contenu.
@@ -99,7 +99,7 @@ Il est possible d'ajouter une colonne dans le fichier pour indiquer des coordonn
 
 Lors d'un import de médias, il est nécessaire d'indiquer que les valeurs d'une colonne servent à associer un média à un contenu en indiquant dans quelle propriété trouver les valeurs de la colonne, sinon le média ne sera pas créé.
 
-#### Source du média
+##### Source du média
 
 !!! danger "Important"
 	Un média doit toujours contenir une source.
@@ -113,7 +113,7 @@ Si plusieurs médias sont à associer à un même contenu, il faut mettre une li
 !!! note
 	Pour simplifier les imports, il peut être nécessaire de faire un fichier par type de média à importer.
 
-### Options des colonnes
+#### Options des colonnes
 
 ![Options des colonnes](assets/import-csv-options.png)
 
