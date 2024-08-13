@@ -42,7 +42,7 @@ Pour chaque propriété il est possible de déclarer trois correspondances Solr 
 
 Les correspondances existantes seront déjà cochées.
 
-En validant avec le bouton **Enregistrer** (3), les pages sélectionnées seront crées.
+En validant avec le bouton **Enregistrer** (3), les correspondances sélectionnées seront crées.
 
 !!! attention
 	Une nouvelle indexation du coeur Solr sera nécessaire (voir [Indexer Solr](module-advanced-search.md#indexer-solr-advanced-search-adapter-for-solr)).
