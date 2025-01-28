@@ -72,3 +72,47 @@ accessible avec l'icône stylo (2).
 La page d’édition est la même que celle de [création](modeles-ressource.md#créer-un-modèle).
 
 La modification du paramétrage d'une propriété d'un modèle ne va pas mettrent les valeurs des ressources utilisant ce modèle à jour. Cela nécessite des opérations supplémentaires.
+
+## Types de données
+
+Omeka S propose par défaut les types de données texte, URI et ressource pour mettre par exemple des contenus en relations entre eux.
+
+Des modules peuvent être ajoutés pour proposer plus de types de données pour configurer les modèles de ressources
+
+### Data Type RDF
+
+Ce module permet d'ajouter les types données suivants :
+
+- HTML (avec un éditeur similaire à celui des pages)
+- XML
+- Booléen
+- JSON
+
+[https://omeka.org/s/modules/DataTypeRdf/](https://omeka.org/s/modules/DataTypeRdf/)
+
+### Numeric Data Type
+
+Ce module permet d'ajouter les types de données suivants :
+
+- Date
+- Entier
+- Durée
+- Intervalle de date
+
+[https://omeka.org/s/modules/NumericDataTypes/](https://omeka.org/s/modules/NumericDataTypes/)
+
+### Value Suggest
+
+Ce module permet d'ajouter pour une propriété l'interrogation des thésauri, des référentiels ou des vocabulaires de manière dynamique depuis les formulaires d'édition de ressources comme Geonames, IdRef, OpenTheso (par exemple Pactols).
+
+La liste des référentiels intérrogeables est disponibles sur la page de présentation du module sur le site d'Omeka :
+
+[https://omeka.org/s/modules/ValueSuggest/](https://omeka.org/s/modules/ValueSuggest/)
+
+### Custom Vocab
+
+Ce module permet d'ajouter des listes controlées de valeurs qui sont gérées dans l'instance Omeka S.
+
+Le menu pour créer des [vocabulaires personnalisés](module-custom-vocab.md) est disponibles dans le menu de gauche dans l'administration.
+
+[https://omeka.org/s/modules/CustomVocab/](https://omeka.org/s/modules/CustomVocab/)
