@@ -66,8 +66,7 @@ Plusieurs modules permettent d'ajouter des types pour avoir des vocabulaires per
 
 ![Édition d'un modèle de ressource](assets/edition-modele.png)
 
-Dans le menu **Modèles de ressource** (1), le formulaire d’édition d’un modèle est
-accessible avec l'icône stylo (2).
+Dans le menu **Modèles de ressource** (1), le formulaire d’édition d’un modèle est accessible avec l'icône stylo (2).
 
 La page d’édition est la même que celle de [création](modeles-ressource.md#créer-un-modèle).
 
