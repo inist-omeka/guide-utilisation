@@ -41,6 +41,7 @@ nav:
   - Modules:
     - module-administ.md
     - module-advanced-search.md
+    - module-custom-vocab.md
     - module-import-csv.md
     - module-mapping.md
     - module-references.md
