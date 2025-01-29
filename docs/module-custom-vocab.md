@@ -1,10 +1,12 @@
 # Custom Vocab
 
-Ce module permet d'éditer des listes controlées de valeurs pour être renseignées dans les types de données des propriétés des modèles de ressources.
+Ce module permet d'éditer des listes controlées de valeurs pour être renseignées dans les types de données des propriétés des [modèles de ressources](modeles-ressource.md).
 
-Il est possible de créer des listes de litéraux, d'URI ou de ressources à partir d'une collection.
+![Formulaire d'édition d'un vocabulaire personnalisé](assets/custom-vocab.png)
 
 Une langue peut être indiqué pour que lors de l'édition d'une valeur d'une ressource, la langue soit automatiquement ajoutées.
+
+Il est possible de créer des listes de litéraux, d'URI ou de contenus à partir d'une collection.
 
 ## Vocables
 
